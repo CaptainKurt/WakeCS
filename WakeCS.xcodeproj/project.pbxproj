@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6403E03E1BB9ABCB000B16D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403E03D1BB9ABCB000B16D0 /* AppDelegate.swift */; };
+		6403E0401BB9ABCB000B16D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403E03F1BB9ABCB000B16D0 /* ViewController.swift */; };
+		6403E0431BB9ABCB000B16D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6403E0411BB9ABCB000B16D0 /* Main.storyboard */; };
+		6403E0451BB9ABCB000B16D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6403E0441BB9ABCB000B16D0 /* Images.xcassets */; };
+		6403E0481BB9ABCB000B16D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6403E0461BB9ABCB000B16D0 /* LaunchScreen.xib */; };
+		6403E0541BB9ABCB000B16D0 /* WakeCSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403E0531BB9ABCB000B16D0 /* WakeCSTests.swift */; };
+		6403E06E1BB9B0D5000B16D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403E06D1BB9B0D5000B16D0 /* HomeViewController.swift */; };
+		6403E0701BB9B0F3000B16D0 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403E06F1BB9B0F2000B16D0 /* EventsViewController.swift */; };
+		6403E0721BB9B413000B16D0 /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403E0711BB9B413000B16D0 /* SideMenuTableViewController.swift */; };
+		A9C18321B5B9F2D77AEB8A70 /* Pods_WakeCS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC697833DEC61015FDE7F096 /* Pods_WakeCS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6403E04E1BB9ABCB000B16D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6403E0301BB9ABCB000B16D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6403E0371BB9ABCB000B16D0;
+			remoteInfo = WakeCS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16042B6D2B39CE54F539D716 /* Pods-WakeCS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeCS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WakeCS/Pods-WakeCS.release.xcconfig"; sourceTree = "<group>"; };
+		6403E0381BB9ABCB000B16D0 /* WakeCS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeCS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6403E03C1BB9ABCB000B16D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6403E03D1BB9ABCB000B16D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6403E03F1BB9ABCB000B16D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6403E0421BB9ABCB000B16D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6403E0441BB9ABCB000B16D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6403E0471BB9ABCB000B16D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6403E04D1BB9ABCB000B16D0 /* WakeCSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeCSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6403E0521BB9ABCB000B16D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6403E0531BB9ABCB000B16D0 /* WakeCSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeCSTests.swift; sourceTree = "<group>"; };
+		6403E0661BB9AED3000B16D0 /* WakeCS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WakeCS-Bridging-Header.h"; sourceTree = "<group>"; };
+		6403E06D1BB9B0D5000B16D0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6403E06F1BB9B0F2000B16D0 /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		6403E0711BB9B413000B16D0 /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		9306D4260B1B68472F43A356 /* Pods-WakeCS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeCS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WakeCS/Pods-WakeCS.debug.xcconfig"; sourceTree = "<group>"; };
+		AC697833DEC61015FDE7F096 /* Pods_WakeCS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WakeCS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6403E0351BB9ABCB000B16D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C18321B5B9F2D77AEB8A70 /* Pods_WakeCS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6403E04A1BB9ABCB000B16D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4366970FC11ED6F2E6939F90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9306D4260B1B68472F43A356 /* Pods-WakeCS.debug.xcconfig */,
+				16042B6D2B39CE54F539D716 /* Pods-WakeCS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6403E02F1BB9ABCB000B16D0 = {
+			isa = PBXGroup;
+			children = (
+				6403E03A1BB9ABCB000B16D0 /* WakeCS */,
+				6403E0501BB9ABCB000B16D0 /* WakeCSTests */,
+				6403E0391BB9ABCB000B16D0 /* Products */,
+				4366970FC11ED6F2E6939F90 /* Pods */,
+				7A3B7DCDDCC0B67E08184097 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6403E0391BB9ABCB000B16D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6403E0381BB9ABCB000B16D0 /* WakeCS.app */,
+				6403E04D1BB9ABCB000B16D0 /* WakeCSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6403E03A1BB9ABCB000B16D0 /* WakeCS */ = {
+			isa = PBXGroup;
+			children = (
+				6403E03D1BB9ABCB000B16D0 /* AppDelegate.swift */,
+				6403E03F1BB9ABCB000B16D0 /* ViewController.swift */,
+				6403E06D1BB9B0D5000B16D0 /* HomeViewController.swift */,
+				6403E0711BB9B413000B16D0 /* SideMenuTableViewController.swift */,
+				6403E06F1BB9B0F2000B16D0 /* EventsViewController.swift */,
+				6403E0411BB9ABCB000B16D0 /* Main.storyboard */,
+				6403E0441BB9ABCB000B16D0 /* Images.xcassets */,
+				6403E0461BB9ABCB000B16D0 /* LaunchScreen.xib */,
+				6403E03B1BB9ABCB000B16D0 /* Supporting Files */,
+			);
+			path = WakeCS;
+			sourceTree = "<group>";
+		};
+		6403E03B1BB9ABCB000B16D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6403E03C1BB9ABCB000B16D0 /* Info.plist */,
+				6403E0661BB9AED3000B16D0 /* WakeCS-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6403E0501BB9ABCB000B16D0 /* WakeCSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6403E0531BB9ABCB000B16D0 /* WakeCSTests.swift */,
+				6403E0511BB9ABCB000B16D0 /* Supporting Files */,
+			);
+			path = WakeCSTests;
+			sourceTree = "<group>";
+		};
+		6403E0511BB9ABCB000B16D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6403E0521BB9ABCB000B16D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A3B7DCDDCC0B67E08184097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC697833DEC61015FDE7F096 /* Pods_WakeCS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6403E0371BB9ABCB000B16D0 /* WakeCS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6403E0571BB9ABCB000B16D0 /* Build configuration list for PBXNativeTarget "WakeCS" */;
+			buildPhases = (
+				1D3C7589778D1B839D1E640D /* Check Pods Manifest.lock */,
+				6403E0341BB9ABCB000B16D0 /* Sources */,
+				6403E0351BB9ABCB000B16D0 /* Frameworks */,
+				6403E0361BB9ABCB000B16D0 /* Resources */,
+				A50022C817D5C4CB4A8239BF /* Embed Pods Frameworks */,
+				390554AEA88866B44366FBC1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeCS;
+			productName = WakeCS;
+			productReference = 6403E0381BB9ABCB000B16D0 /* WakeCS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6403E04C1BB9ABCB000B16D0 /* WakeCSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6403E05A1BB9ABCB000B16D0 /* Build configuration list for PBXNativeTarget "WakeCSTests" */;
+			buildPhases = (
+				6403E0491BB9ABCB000B16D0 /* Sources */,
+				6403E04A1BB9ABCB000B16D0 /* Frameworks */,
+				6403E04B1BB9ABCB000B16D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6403E04F1BB9ABCB000B16D0 /* PBXTargetDependency */,
+			);
+			name = WakeCSTests;
+			productName = WakeCSTests;
+			productReference = 6403E04D1BB9ABCB000B16D0 /* WakeCSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6403E0301BB9ABCB000B16D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ST;
+				TargetAttributes = {
+					6403E0371BB9ABCB000B16D0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6403E04C1BB9ABCB000B16D0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6403E0371BB9ABCB000B16D0;
+					};
+				};
+			};
+			buildConfigurationList = 6403E0331BB9ABCB000B16D0 /* Build configuration list for PBXProject "WakeCS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6403E02F1BB9ABCB000B16D0;
+			productRefGroup = 6403E0391BB9ABCB000B16D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6403E0371BB9ABCB000B16D0 /* WakeCS */,
+				6403E04C1BB9ABCB000B16D0 /* WakeCSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6403E0361BB9ABCB000B16D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6403E0431BB9ABCB000B16D0 /* Main.storyboard in Resources */,
+				6403E0481BB9ABCB000B16D0 /* LaunchScreen.xib in Resources */,
+				6403E0451BB9ABCB000B16D0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6403E04B1BB9ABCB000B16D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D3C7589778D1B839D1E640D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		390554AEA88866B44366FBC1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WakeCS/Pods-WakeCS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50022C817D5C4CB4A8239BF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WakeCS/Pods-WakeCS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6403E0341BB9ABCB000B16D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6403E0401BB9ABCB000B16D0 /* ViewController.swift in Sources */,
+				6403E0701BB9B0F3000B16D0 /* EventsViewController.swift in Sources */,
+				6403E03E1BB9ABCB000B16D0 /* AppDelegate.swift in Sources */,
+				6403E06E1BB9B0D5000B16D0 /* HomeViewController.swift in Sources */,
+				6403E0721BB9B413000B16D0 /* SideMenuTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6403E0491BB9ABCB000B16D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6403E0541BB9ABCB000B16D0 /* WakeCSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6403E04F1BB9ABCB000B16D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6403E0371BB9ABCB000B16D0 /* WakeCS */;
+			targetProxy = 6403E04E1BB9ABCB000B16D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6403E0411BB9ABCB000B16D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6403E0421BB9ABCB000B16D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6403E0461BB9ABCB000B16D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6403E0471BB9ABCB000B16D0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6403E0551BB9ABCB000B16D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6403E0561BB9ABCB000B16D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6403E0581BB9ABCB000B16D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9306D4260B1B68472F43A356 /* Pods-WakeCS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WakeCS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WakeCS/WakeCS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6403E0591BB9ABCB000B16D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16042B6D2B39CE54F539D716 /* Pods-WakeCS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WakeCS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WakeCS/WakeCS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6403E05B1BB9ABCB000B16D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WakeCSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeCS.app/WakeCS";
+			};
+			name = Debug;
+		};
+		6403E05C1BB9ABCB000B16D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WakeCSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeCS.app/WakeCS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6403E0331BB9ABCB000B16D0 /* Build configuration list for PBXProject "WakeCS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6403E0551BB9ABCB000B16D0 /* Debug */,
+				6403E0561BB9ABCB000B16D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6403E0571BB9ABCB000B16D0 /* Build configuration list for PBXNativeTarget "WakeCS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6403E0581BB9ABCB000B16D0 /* Debug */,
+				6403E0591BB9ABCB000B16D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6403E05A1BB9ABCB000B16D0 /* Build configuration list for PBXNativeTarget "WakeCSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6403E05B1BB9ABCB000B16D0 /* Debug */,
+				6403E05C1BB9ABCB000B16D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6403E0301BB9ABCB000B16D0 /* Project object */;
+}
