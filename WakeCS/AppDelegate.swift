@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MFSideMenu
+//import MFSideMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,17 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+//        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
         
-        var centerViewController = storyboard.instantiateViewControllerWithIdentifier("ViewController") as ViewController
-        var rootNavController = UINavigationController(rootViewController: centerViewController)
-        var leftViewController = storyboard.instantiateViewControllerWithIdentifier("SideMenuVC") as SideMenuTableViewController
-        var rightViewController = storyboard.instantiateViewControllerWithIdentifier("EventsVC") as EventsViewController
-        
-        var container = MFSideMenuContainerViewController.containerWithCenterViewController(rootNavController, leftMenuViewController: leftViewController, rightMenuViewController: rightViewController)
-//        self.windowr
-        self.window?.rootViewController =  rootNavController
-        self.window?.makeKeyAndVisible()
+//        var centerViewController = storyboard.instantiateViewControllerWithIdentifier("ViewController") as ViewController
+//        var rootNavController = UINavigationController(rootViewController: centerViewController)
+//        var leftViewController = storyboard.instantiateViewControllerWithIdentifier("SideMenuVC") as SideMenuTableViewController
+//        var rightViewController = storyboard.instantiateViewControllerWithIdentifier("EventsVC") as EventsViewController
+//        
+//        var container = MFSideMenuContainerViewController.containerWithCenterViewController(rootNavController, leftMenuViewController: leftViewController, rightMenuViewController: rightViewController)
+////        self.windowr
+//        self.window?.rootViewController =  rootNavController
+//        self.window?.makeKeyAndVisible()
         
         return true
     }

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import MFSideMenu
+//import MFSideMenu
 
 class ViewController: UIViewController {
 
@@ -23,13 +23,13 @@ class ViewController: UIViewController {
     }
 
     func setupMenuBarButtonItems(){
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Bordered, target: self, action: "rightSideMenuButtonPressed:")
-        
-        if self.menuContainerViewController.menuState.value == MFSideMenuStateClosed.value {
-            self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.Bordered, target: self, action: "backButtonPressed:")
-        } else {
-            self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Bordered, target: self, action: "leftSideMenuButtonPressed:")
-        }
+//        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Bordered, target: self, action: "rightSideMenuButtonPressed:")
+//        
+//        if self.menuContainerViewController.menuState.value == MFSideMenuStateClosed.value {
+//            self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.Bordered, target: self, action: "backButtonPressed:")
+//        } else {
+//            self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Bordered, target: self, action: "leftSideMenuButtonPressed:")
+//        }
     }
     
     
